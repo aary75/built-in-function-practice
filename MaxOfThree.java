@@ -1,15 +1,19 @@
+// Creating MaxOfThree class to get maximum of three numbers
 import java.util.Scanner;
 
 public class MaxOfThree{
    public static void main(String[] args){
        Scanner scanner = new Scanner(System.in);
-
+ 
+       // Taking input
        int[] numbers = input();
 
+       // Function to find maximum
        System.out.print("The maximum number is: " + maximum(numbers));
 
  }
 
+// FUnction to generate inputs
  public static int[] input(){
       
       Scanner scanner = new Scanner(System.in);
@@ -28,6 +32,7 @@ public class MaxOfThree{
     return numbers;
 }
 
+// Function to find maximum of three taken numbers
 public static int maximum(int[] numbers){
 
         int first = numbers[0];
